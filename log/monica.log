@@ -1,0 +1,137 @@
+2024-05-15 14:56:20,491 | INFO | {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}
+2024-05-15 14:56:20,494 | INFO | 127.0.0.1:53282 - "POST /any/ HTTP/1.1" 200
+2024-05-15 15:00:28,723 | INFO | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-15 15:00:28,725 | INFO | 127.0.0.1:43652 - "POST /any/ HTTP/1.1" 200
+2024-05-15 15:00:55,323 | INFO | 127.0.0.1:51992 - "POST /any/ HTTP/1.1" 500
+2024-05-15 15:01:07,000 | INFO | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-15 15:01:07,001 | INFO | 127.0.0.1:36588 - "POST /any/ HTTP/1.1" 200
+2024-05-15 15:02:44,356 | INFO | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-15 15:02:44,358 | INFO | 127.0.0.1:60632 - "POST /any/ HTTP/1.1" 200
+2024-05-15 15:05:08,806 | INFO | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-15 15:05:08,808 | INFO | 127.0.0.1:44520 - "POST /any/ HTTP/1.1" 200
+2024-05-15 15:05:10,598 | INFO | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-15 15:05:10,598 | INFO | 127.0.0.1:44536 - "POST /any/ HTTP/1.1" 200
+2024-05-15 15:06:23,368 | INFO | ({'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}},)
+2024-05-15 15:06:23,370 | INFO | 127.0.0.1:57250 - "POST /any/ HTTP/1.1" 200
+2024-05-15 15:07:10,369 | INFO | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-15 15:07:10,372 | INFO | 127.0.0.1:44982 - "POST /any/ HTTP/1.1" 200
+2024-05-15 15:10:43,152 | INFO | data
+2024-05-15 15:10:43,154 | INFO | 127.0.0.1:37104 - "POST /any/ HTTP/1.1" 200
+2024-05-16 14:16:02,491 | INFO | data
+2024-05-16 14:16:02,496 | INFO | 127.0.0.1:41966 - "POST /any/ HTTP/1.1" 200
+2024-05-16 14:18:28,268 | INFO | data
+2024-05-16 14:18:28,270 | INFO | 127.0.0.1:54866 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:39:54,345 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 11:39:54,345 | INFO | 127.0.0.1:59618 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:40:19,575 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 11:40:19,575 | INFO | 127.0.0.1:45466 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:41:22,600 | DEBUG | data={'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}
+2024-05-20 11:41:22,601 | INFO | 127.0.0.1:36088 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:42:56,227 | DEBUG | <bound method BaseModel.dict of AnyData(data={'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}})>
+2024-05-20 11:42:56,227 | INFO | 127.0.0.1:43786 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:43:19,643 | INFO | 127.0.0.1:50176 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:43:37,190 | INFO | 127.0.0.1:59602 - "POST /any/ HTTP/1.1" 500
+2024-05-20 11:43:43,663 | INFO | 127.0.0.1:51288 - "POST /any/ HTTP/1.1" 500
+2024-05-20 11:43:47,299 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 11:43:47,299 | INFO | 127.0.0.1:51294 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:54:09,766 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 11:54:09,766 | INFO | 127.0.0.1:41232 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:54:15,394 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 11:54:15,394 | INFO | 127.0.0.1:41246 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:55:16,659 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 11:55:16,659 | INFO | 127.0.0.1:37864 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:57:05,078 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 11:57:05,078 | INFO | 127.0.0.1:53592 - "POST /any/ HTTP/1.1" 200
+2024-05-20 11:57:07,546 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 11:57:07,546 | INFO | 127.0.0.1:53594 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:00:44,839 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:00:44,839 | INFO | 127.0.0.1:50144 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:03:54,455 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:03:54,455 | INFO | 127.0.0.1:58890 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:04:52,153 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:04:52,153 | INFO | 127.0.0.1:34364 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:09:27,323 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:09:27,323 | INFO | 127.0.0.1:34000 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:11:15,733 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:11:15,733 | INFO | 127.0.0.1:44022 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:12:32,087 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:12:32,087 | INFO | 127.0.0.1:57526 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:15:15,045 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:15:15,046 | INFO | 127.0.0.1:58574 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:15:32,329 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:15:32,330 | INFO | 127.0.0.1:34108 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:16:48,095 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:16:48,095 | INFO | 127.0.0.1:34984 - "POST /any/ HTTP/1.1" 200
+2024-05-20 12:16:50,295 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 12:16:50,295 | INFO | 127.0.0.1:42576 - "POST /any/ HTTP/1.1" 200
+2024-05-20 14:56:02,324 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 14:56:02,326 | INFO | 127.0.0.1:56046 - "POST /any/ HTTP/1.1" 500
+2024-05-20 14:56:41,872 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 14:56:41,872 | INFO | 127.0.0.1:40984 - "POST /any/ HTTP/1.1" 200
+2024-05-20 14:56:53,061 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 14:56:53,061 | INFO | 127.0.0.1:56494 - "POST /any/ HTTP/1.1" 200
+2024-05-20 14:56:54,600 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 14:56:54,600 | INFO | 127.0.0.1:56504 - "POST /any/ HTTP/1.1" 200
+2024-05-20 14:57:02,149 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 14:57:02,149 | INFO | 127.0.0.1:60344 - "POST /any/ HTTP/1.1" 200
+2024-05-20 14:57:47,038 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 14:57:47,039 | INFO | 127.0.0.1:37204 - "POST /any/ HTTP/1.1" 200
+2024-05-20 16:12:48,714 | DEBUG | {'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 16:12:48,715 | INFO | 127.0.0.1:55914 - "POST /any/ HTTP/1.1" 200
+2024-05-20 16:16:04,405 | INFO | 127.0.0.1:46616 - "POST /monica/any/ HTTP/1.1" 404
+2024-05-20 16:17:01,517 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 16:17:01,517 | INFO | 127.0.0.1:48460 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-20 16:24:05,771 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 16:24:05,771 | INFO | 127.0.0.1:44020 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-20 16:29:20,516 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 16:29:20,516 | DEBUG | save json: json/test_1716193760.516376.json
+2024-05-20 16:29:20,516 | INFO | 127.0.0.1:44006 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-20 16:30:47,731 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-20 16:30:47,732 | DEBUG | save json: json/test_1716193847.json
+2024-05-20 16:30:47,732 | INFO | 127.0.0.1:45670 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 10:22:46,562 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-21 10:22:46,562 | DEBUG | save json: /home/weiensong/data/code/personal/monica/json/test_1716258166.json
+2024-05-21 10:22:46,562 | INFO | 127.0.0.1:37926 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 10:27:32,883 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-21 10:27:32,884 | DEBUG | save json: /home/weiensong/data/code/personal/monica/test_1716258452
+2024-05-21 10:27:32,884 | INFO | 127.0.0.1:45550 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 10:28:56,297 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-21 10:28:56,297 | DEBUG | save json: /home/weiensong/data/code/personal/monica/json/test_1716258536.json
+2024-05-21 10:28:56,297 | INFO | 127.0.0.1:43830 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 10:31:32,809 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-21 10:31:32,810 | DEBUG | save json: json/test_1716258692.json
+2024-05-21 10:31:32,810 | INFO | 127.0.0.1:33854 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 10:42:36,733 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-21 10:42:36,733 | DEBUG | save json: json/test_1716259356.json
+2024-05-21 10:42:36,733 | INFO | 127.0.0.1:40948 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 10:47:58,301 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-21 10:47:58,301 | DEBUG | save json: json/test_1716259678.json
+2024-05-21 10:47:58,302 | INFO | 127.0.0.1:48270 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 10:51:34,022 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-21 10:51:34,022 | DEBUG | save json: json/test_1716259894.json
+2024-05-21 10:51:34,022 | INFO | 127.0.0.1:49290 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 10:52:54,452 | INFO | 127.0.0.1:59698 - "GET /monica/preview/test_1716259894.json HTTP/1.1" 500
+2024-05-21 10:52:54,787 | INFO | 127.0.0.1:59714 - "GET /favicon.ico HTTP/1.1" 404
+2024-05-21 10:55:03,675 | DEBUG | {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-21 10:55:03,675 | DEBUG | save json: json/test_1716260103.json
+2024-05-21 10:55:03,676 | INFO | 127.0.0.1:48482 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 10:55:09,831 | INFO | 127.0.0.1:44116 - "GET /monica/preview/test_1716259894.json HTTP/1.1" 200
+2024-05-21 11:04:43,673 | DEBUG | start in: http://127.0.0.1:2518
+2024-05-21 11:09:48,017 | DEBUG | start in: http://127.0.0.1:2518
+2024-05-21 11:10:09,952 | DEBUG | start in: http://127.0.0.1:2518
+2024-05-21 11:10:40,155 | DEBUG | start in: http://127.0.0.1:2518
+2024-05-21 11:11:07,795 | DEBUG | json/test_1716259894.json
+2024-05-21 11:11:07,795 | INFO | 127.0.0.1:60048 - "GET /monica/preview/test_1716259894.json HTTP/1.1" 200
+2024-05-21 11:11:17,825 | DEBUG | json/teson
+2024-05-21 11:11:17,825 | INFO | 127.0.0.1:60058 - "GET /monica/preview/teson HTTP/1.1" 404
+2024-05-21 11:14:23,231 | DEBUG | GET /monica/preview/test_1716259894.json: json/test_1716259894.json
+2024-05-21 11:14:23,231 | INFO | 127.0.0.1:38796 - "GET /monica/preview/test_1716259894.json HTTP/1.1" 200
+2024-05-21 11:14:36,796 | DEBUG | POST /monica/any/: any_data.dict()
+2024-05-21 11:14:36,796 | DEBUG | save json: json/test_1716261276.json
+2024-05-21 11:14:36,797 | INFO | 127.0.0.1:58584 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 11:15:34,150 | DEBUG | POST /monica/any/: {'describe_word': 'test', 'data': {'key1': 'value1', 'key2': 42, 'key3': [1, 2, 3], 'key4': {'nested_key': 'nested_value'}}}
+2024-05-21 11:15:34,150 | DEBUG | save json: json/test_1716261334.json
+2024-05-21 11:15:34,150 | INFO | 127.0.0.1:58456 - "POST /monica/any/ HTTP/1.1" 200
+2024-05-21 11:16:03,026 | DEBUG | GET /monica/preview/test_1716261334.json: json/test_1716261334.json
+2024-05-21 11:16:03,026 | DEBUG | load json: json/test_1716261334.json
+2024-05-21 11:16:03,026 | INFO | 127.0.0.1:53198 - "GET /monica/preview/test_1716261334.json HTTP/1.1" 200

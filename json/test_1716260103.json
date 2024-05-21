@@ -1,0 +1,15 @@
+{
+    "describe_word": "test",
+    "data": {
+        "key1": "value1",
+        "key2": 42,
+        "key3": [
+            1,
+            2,
+            3
+        ],
+        "key4": {
+            "nested_key": "nested_value"
+        }
+    }
+}
